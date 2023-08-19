@@ -1,0 +1,371 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins: wght@300;400;500; 600;700; 800; 900&display-swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:poppins; 
+}
+h3{
+  text-align: center;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    padding: 20px 100px;
+    background-color: rgb(15, 26, 32);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    z-index: 99;
+}
+.Logo{
+  display: flex;
+  height: 2.5em;
+}
+.mainhead{
+  margin-top: 170px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  color: rgb(156, 0, 0);
+}
+.navigation a {
+  position: relative;
+  left: 1em;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 40px;
+  align-items: center;
+}
+.navigation a:hover{
+  color: rgb(255, 210, 96);
+}
+.navigation .button-loginpage{
+    height: 50px;
+    width: 200px;
+    background: transparent;
+    outline: none;
+    color: white;
+    border: 2px solid white;
+    font-size: 18px;
+    border-radius: 6px;
+    margin-left: 50px;
+    padding-right: 0;
+    padding: 10px;
+    position: relative;
+    left: 5em;
+    cursor:pointer;
+    transition: .5s;
+  }
+  .navigation .button-loginpage:hover{
+    background: white;
+    color: rgb(45, 45, 45);
+  }
+  /* .picon{
+    height: 10px;
+    width: 10px;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    cursor: pointer;
+    padding-left: 0;
+    position:relative;
+    left: 2em; */
+  /* } */
+  .picon img{
+    width: 3em;
+    height: 3em;
+    color: white;
+    background-color: transparent;
+    position: relative;
+    left: 2em;
+    top: 4px;
+    
+  }
+  /* .logobg{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    padding: 50px;
+    margin: 10px;
+  }
+.textoffer{
+  padding: 100px;
+  height: 10px;
+} */
+.container {
+  display: flex;
+  align-items: center;
+   /* Align items vertically */
+}
+
+.container img {
+  /* Adjust the width as needed */
+  margin-left: 200px; /* Add space between the image and the list */
+  width: 800px;
+  height: auto;
+  margin-top: 0;
+}
+
+.container ul {
+  margin-left: 5em;
+  margin-top: 0;
+  padding: 0;
+}
+
+.container li {
+  margin-bottom: 10px; /* Add space between each list item */
+}
+@media screen and (max-width: 800px){
+  *{
+  max-width: 100%;
+  font-family:poppins;
+  }
+  h3{
+    text-align: center;
+  }
+  header{
+    width:100%;
+    height: 100%;
+      position: absolute;
+      padding: 20px 0px;
+      background-color: rgb(0, 41, 63);
+      align-items: center;
+      z-index: 99;
+  }
+  .Logo{
+    height: 2.5em;
+  }
+  .mainhead{
+    text-align: center;
+    margin-top: 170px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: rgb(255, 0, 0);
+  }
+  .navigation a {
+    position: relative;
+    left: 0;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 0;
+    margin-left: 0;
+    align-items: center;
+  }
+  .navigation a:hover{
+    color: rgb(255, 210, 96);
+  }
+  .navigation .button-loginpage{
+      height: 50px;
+      width: 500px;
+      background: transparent;
+      outline: none;
+      color: white;
+      border: 2px solid white;
+      font-size: 18px;
+      border-radius: 6px;
+      margin-left: 0;
+      padding-right: 0;
+      padding: 10px;
+      position: relative;
+      left: 0em;
+      top: 1em;
+      cursor:pointer;
+      transition: .5s;
+      margin-top: 50px;
+    }
+    .navigation .button-loginpage:hover{
+      background: white;
+      color: rgb(45, 45, 45);
+    }
+    /* .picon{
+      height: 10px;
+      width: 10px;
+      background-color: transparent;
+      color: white;
+      display: flex;
+      cursor: pointer;
+      padding-left: 0;
+      position:relative;
+      left: 2em; */
+    /* } */
+    .picon img{
+      width: 3em;
+      height: 3em;
+      color: white;
+      background-color: transparent;
+      position: relative;
+      left: 2em;
+      top: 4px;
+      
+    }
+    /* .logobg{
+      display: flex;
+      width: 500px;
+      height: 500px;
+      padding: 50px;
+      margin: 10px;
+    }
+  .textoffer{
+    padding: 100px;
+    height: 10px;
+  } */
+  .container {
+    display: flex;
+    align-items: center;
+     /* Align items vertically */
+  }
+  
+  .container img {
+    /* Adjust the width as needed */
+    margin-left: 0; /* Add space between the image and the list */
+    width: 800px;
+    height: auto;
+    margin-top: 0;
+  }
+  
+  .container ul {
+    margin-left: 5em;
+    margin-top: 0;
+    padding: 0;
+  }
+  
+  .container li {
+    margin-bottom: 10px; /* Add space between each list item */
+  }
+}
+@media screen and (max-width: 800px){
+  *{
+  max-width: 100%;
+  font-family:poppins;
+  }
+  header{
+      position: absolute;
+      left: 55px;
+      right: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+  }
+  .navigation a {
+      position: relative;
+      left: 0;
+      top: 50px;
+      font-size: 10px;
+      color: white;
+      text-decoration: none;
+      margin-left: 8px;
+      align-items: center;
+    }
+    .navigation a:hover{
+      color: rgb(255, 210, 96);
+    }
+    .navigation .button-loginpage{
+      display: inline-block;
+      text-decoration: none;
+      text-align: center;
+      background:transparent;
+      color: #fff;
+      width:200px;
+      padding: 5px;
+      margin-top: 15px;
+      border: 0.5px solid white;
+      border-radius: 8px;
+      position: relative;
+      left: 35px;
+      cursor:pointer;
+      transition: .5s;
+      
+    }
+    .navigation .button-loginpage:hover{
+      background: white;
+      color: rgb(0, 0, 0);
+    }
+  .picon img{
+      height:0;
+      width:0;
+      display: flex;
+      color: white;
+      background-color: transparent;
+      cursor: pointer;
+      position:relative;
+      left: 0px;
+      bottom: 50px;
+  }
+  #banner{
+      background-image: linear-gradient(#000,rgba(0,0,0,0.4)),url(bgg.jpg);
+      background-size:cover;
+      background-position: center;
+      height: 100vh;
+  }
+  .logo{
+      width: 120px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 30px;
+      left: 140px;
+      right: 0;
+  }
+  .banner-text{
+      font-family: 'Cookie', cursive;
+      color: white;
+      text-align: center;
+      padding-top: 6em;
+      
+  }
+  .banner-text h1{
+      margin-top: 200px;
+      color: rgb(255, 200, 0);
+      text-shadow: 5px 5px 4px rgba(0,0,0,0.5);
+      font-size: 30px;
+      text-align: center;
+  }
+  .banner-text p{
+      margin-top: 20px;
+      font-size: 20px ;
+      font-style: italic;
+      text-shadow: 3px 3px 4px rgba(0,0,0,0.4);
+  }
+  .banner-btn{
+      margin: 80px auto 0;
+  }
+  .banner-btn a{
+      width: 250px;
+      text-decoration: none;
+      display: inline-block;
+      margin: 0 10px;
+      padding: 12px 0 ;
+      color: white;
+      border: 1px solid white;
+      text-shadow: 3px 3px 4px rgba(0,0,0,0.4);
+      border-radius: 50px;
+      position: relative;
+      z-index: 1;
+      transition: 0.5s;
+      
+  }
+  .banner-btn a span{
+      border-radius: 50px;
+      width: 0%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: white;
+      text-shadow: 3px 3px 4px rgba(0,0,0,0.4);
+      z-index: -1;
+      transition: 0.5s;
+  }
+  .banner-btn a:hover span{
+      width:100%;
+  }
+  .banner-btn a:hover {
+      color:black
+  }
+

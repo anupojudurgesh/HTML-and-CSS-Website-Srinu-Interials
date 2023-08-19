@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins: wght@300;400;500; 600;700; 800; 900&display-swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:poppins; 
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    padding: 20px 100px;
+    background-color: rgb(15, 26, 32);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    z-index: 99;
+}
+.Logo{
+  display: flex;
+  height: 2.5em;
+}
+.navigation a {
+  position: relative;
+  left: 1em;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 30px;
+  align-items: center;
+}
+.navigation .button-loginpage{
+    height: 50px;
+    width: 200px;
+    background: transparent;
+    outline: none;
+    color: white;
+    border: 2px solid white;
+    font-size: 18px;
+    border-radius: 6px;
+    margin-right: 50px;
+    padding-right: 40px;
+    padding-left: 10px;
+    position: relative;
+    left: 6em;
+    cursor:pointer;
+    transition: .5s;
+    
+  }
+  .navigation .button-loginpage:hover{
+    background: white;
+    color: rgb(45, 45, 45);
+  }
+  .picon{
+    height: 3em;
+    width: 3em;
+    color: white;
+    background-color: transparent;
+    display: flex;
+    cursor: pointer;
+    padding-left: 0;
+    position:relative;
+    left: 2em;
+  }
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-repeat: none;
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(bgg.jpg);
+  background-position: center;
+  background-size:cover;
+  background-position: fixed;
+}
+.maintext{
+  color: rgb(255, 200, 0);
+  text-shadow: 4px 3px 4px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  position: relative;
+  right: 0;
+  left: 5em;
+  font-size: 40px;
+  width: 800px;
+  margin-bottom: 60px;
+}
+.belowtext{
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-align: center;   
+  width:1000px;
+  padding-top: 150px;
+  position: relative;
+  right: 28em;
+  margin-bottom: 20px;
+}
+.bookadesigner{
+  height: 3em;
+  width: 15em;
+  background-color: white;
+  color:rgb(255, 204, 85);
+  font-size: 1.5em;
+  background: transparent;
+  outline: none;
+  border: 2px solid white;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 15em;
+  position: relative;
+  left: 25em;
+  transition: 0.5s;
+}
+.bookadesigner:hover{
+  background-color: white;
+  color: rgb(29, 39, 51);
+}
+
+
+

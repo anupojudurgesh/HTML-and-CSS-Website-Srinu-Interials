@@ -1,0 +1,81 @@
+
+@import url("https://fonts.googleapis.com/css?family=Poppins: wght@300;400;500; 600;700; 800; 900&display-swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:poppins;
+}
+body {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(999.jpg);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 25px;
+  }
+  
+  h2 {
+    text-align: center;
+    color:rgb(180, 0, 0);
+  }
+  
+  .form-group {
+    margin-bottom: 30px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button {
+    background-color: #900404;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: rgb(25, 25, 56);
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+  }
+  
+  /* Optional: Add some additional styles for better visual appearance */
+  .container {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  body {
+    background-color: #f5f5f5;
+  }
+  
+  form {
+    margin-bottom: 40px;
+  }
+  

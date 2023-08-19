@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins: wght@300;400;500; 600;700; 800; 900&display-swap");
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:poppins;
+}
+header{
+    position: absolute;
+    top: 1.8em;
+    left: 20em;
+    padding: 20px 100px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    z-index: 99;
+}
+.navigation a {
+    position: relative;
+    left: 0;
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    align-items: center;
+  }
+  .navigation a:hover{
+    color: rgb(255, 210, 96);
+  }
+  .navigation .button-loginpage{
+    display: inline-block;
+    text-decoration: none;
+    background:transparent;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border: 2px solid white;
+    border-radius: 8px;
+    position: relative;
+    left: 4em;
+    cursor:pointer;
+    transition: .5s;
+    
+  }
+  .navigation .button-loginpage:hover{
+    background: white;
+    color: rgb(0, 0, 0);
+  }
+.picon{
+    height: 3em;
+    width: 3em;
+    display: flex;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+    padding-left: 0;
+    margin-top: 12px;
+    position:relative;
+    left: 8em;
+}
+#banner{
+    background-image: linear-gradient(#000,rgba(0,0,0,0.4)),url(bgg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.logo{
+    width: 250px;
+    position: absolute;
+    top: 5%;
+    left: 6%;
+}
+.banner-text{
+
+    font-family: 'Cookie', cursive;
+    color: white;
+    text-align: center;
+    padding-top: 6em;
+    
+}
+.banner-text h1{
+    margin-top: 150px;
+    color: rgb(255, 200, 0);
+    text-shadow: 5px 5px 4px rgba(0,0,0,0.5);
+    font-size: 50px;
+    text-align: center;
+}
+.banner-text p{
+    margin-top: 20px;
+    font-size: 20px ;
+    font-style: italic;
+    text-shadow: 3px 3px 4px rgba(0,0,0,0.4);
+}
+.banner-btn{
+    margin: 70px auto 0;
+}
+.banner-btn a{
+    width: 200px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0 ;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50px;
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+    
+}
+.banner-btn a span{
+    border-radius: 50px;
+    width: 0%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    text-shadow: 3px 3px 4px rgba(0,0,0,0.4);
+    z-index: -1;
+    transition: 0.5s;
+}
+.banner-btn a:hover span{
+    width:100%;
+}
+.banner-btn a:hover {
+    color:black
+}
+@media screen and (max-width: 770px){
+    
+}
+/* features */
+#features{
+    width:100%;
+    padding: 70px 0;
+}
+.title-text{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.title-text p {
+    margin: auto;
+    font-size: 20px;
+    color:brown;
+    font-weight: bold;
+}
+.img1{
+    text-align: center;
+    width: 1000px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.img2{
+    text-align: center;
+    width: 1600px;
+    position: relative;
+    right: 50px;
+}
+.img3{
+    text-align: center;
+    width: 1000px;
+}
+.text2{
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+.content{
+    position: relative;
+    min-height: 100vh;
+}
+.blackbg{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height:400px;
+    background-color: #2c2c2c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blackbg h1{
+    color: red;
+    font-size: 20px;
+}
+#visitingcard {
+    position: relative;
+    bottom: 15em;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    height: auto;
+}
+#dadimg{
+    text-align: center;
+    width: 1000px;
+    max-width: 300px;
+    height: auto;
+    margin-left: 300px;
+    border:2px solid black;
+    border-radius: 30px;
+    padding: 10px;
+}
+#dadtext1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    left: 10em;
+    bottom: 11em;
+    color:rgb(4, 37, 88);
+}
+#dadtext2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    left: 4em;
+    bottom: 4.2em;
+    color:rgb(170, 2, 2);
+    font-size: 50px;
+}
+#addtext1{
+    text-align: center;
+    color: rgb(32, 32, 32);
+    position: relative;
+    bottom: 2em;
+    
+}
+#created{
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    border: 2px dotted white;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+    color:#fff;
+    position: relative;
+    top: 40em;
+    left: 34em;
+}
